@@ -10,7 +10,7 @@ var appState = AppState(searchState: .init())
 
 var keyPath = \AppState.searchState
 
-appState[keyPath: \AppState.searchState]
+appState[keyPath: \AppState.searchState] // = appState.searchState
 
 func reducer(state: inout SearchState) {
     state.keyword = "London"

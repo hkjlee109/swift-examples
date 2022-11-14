@@ -15,4 +15,3 @@ let token1 = (/Athentication.success).extract(from: result1)
 
 let result2 = Athentication.failure
 let token2 = (/Athentication.success).extract(from: result2)
-
